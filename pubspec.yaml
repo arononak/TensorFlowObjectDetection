@@ -1,0 +1,27 @@
+name: TensorFlowSample
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  tflite: ^1.1.1
+  camera: 0.5.8+17
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/yolov2_tiny.txt
+   - assets/yolov2_tiny.tflite
